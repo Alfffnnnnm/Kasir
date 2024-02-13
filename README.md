@@ -1,2 +1,1 @@
-# Kasir
-Kasir sederhana
+
