@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aplikasi Kasir Sederhana</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Aplikasi Kasir Sederhana</h1>
+
+      <section id="products">
+        <h2>Daftar Produk</h2>
+        <table class="table" id="product-table">
+          <thead>
+            <tr>
+              <th>Produk</th>
+              <th>Harga (Rp)</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="cart">
+        <h2>Keranjang Belanja</h2>
+        <table class="table" id="cart-table">
+          <thead>
+            <tr>
+              <th>Produk</th>
+              <th>Qty</th>
+              <th>Harga</th>
+              <th>Sub Total</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="summary">
+          <strong>Total: Rp <span id="cart-total">0</span></strong>
+        </div>
+        <button id="checkout-btn" class="btn">Checkout</button>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
